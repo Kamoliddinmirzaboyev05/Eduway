@@ -1,0 +1,30 @@
+.sideBar {
+  background-color: #323845;
+  width: 20%;
+  position: relative;
+  height: calc(100vh - 80px);
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+ul li a {
+  padding: 15px 30px;
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  border-top: 0.3px solid rgba(255, 255, 255, 0.552);
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.649);
+}
+ul li a.active {
+  background-color: white;
+  font-weight: 700;
+  color: #000;
+  border: none;
+}

@@ -1,0 +1,35 @@
+.navbarPage {
+  background-color: #323845;
+}
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+nav .logo{
+  width: 120px;
+}
+nav .logo img{
+  width: 100%;
+}
+.navBtns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.navBtns button{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+}
+.navBtns button img{
+  width: 20px;
+  height: 20px;
+}
