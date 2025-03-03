@@ -6,11 +6,11 @@ function Navbar() {
       <nav>
         <div className="container">
           <div className="logo">
-            <img src="/public/logo.png" alt="" />
+            <img src="/logo.png" alt="" />
           </div>
           <div className="navBtns">
             <button>
-              <img src="/public/yellowsun.svg" alt="" />
+              <img src="/yellowsun.svg" alt="" />
             </button>
             <button>
               <i className="fa-solid fa-circle-user"></i>
