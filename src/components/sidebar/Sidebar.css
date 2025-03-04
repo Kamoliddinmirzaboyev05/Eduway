@@ -1,8 +1,10 @@
 .sideBar {
-  background-color: #323845;
-  width: 20%;
-  position: relative;
-  height: calc(100vh - 80px);
+  background-color: #263148;
+  width: 15%;
+  position: fixed;
+  top: 11%;
+  left: 0;
+  bottom: 0;
 }
 ul {
   list-style: none;
@@ -13,7 +15,7 @@ ul {
 ul li a {
   padding: 15px 30px;
   display: flex;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
   align-items: center;
   gap: 10px;

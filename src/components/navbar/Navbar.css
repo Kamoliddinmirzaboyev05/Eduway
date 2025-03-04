@@ -1,25 +1,31 @@
 .navbarPage {
-  background-color: #323845;
+  background-color: #263148;
 }
-nav .container {
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #263148;
+}
+
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 15px 80px;
 }
-nav .logo{
+nav .logo {
   width: 120px;
 }
-nav .logo img{
+nav .logo img {
   width: 100%;
 }
-.navBtns{
+.navBtns {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
-.navBtns button{
+.navBtns button {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -29,7 +35,7 @@ nav .logo img{
   font-size: 20px;
   color: white;
 }
-.navBtns button img{
+.navBtns button img {
   width: 20px;
   height: 20px;
 }
