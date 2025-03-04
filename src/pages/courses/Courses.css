@@ -8,6 +8,7 @@
   width: 300px;
   border: 1px solid rgb(164, 164, 164);
   padding: 20px;
+  border-radius: 8px;
 }
 .boxImg {
   width: 100%;

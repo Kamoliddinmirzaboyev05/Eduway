@@ -57,11 +57,11 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 30px;
+  padding-top: 30px;
   gap: 30px;
 }
 .departmentCard {
-  width: 450px;
+  width: 480px;
   border: 1px solid rgb(164, 164, 164);
   padding: 15px;
   border-radius: 8px;
