@@ -1,67 +1,154 @@
-import React from 'react'
-
+import React from "react";
+import "./Courses.css";
 function Courses() {
   return (
     <div className="rootPart">
       <div className="page">
         <div className="homeHero">
           <div className="container">
-            <div className="aboutPlatform">
-              <h2>
-                {" "}
-                Eduway – Kelajak IT Mutaxassislari Uchun Ta`lim Platformasi
-              </h2>
-              <p>
-                Eduway – bu IT kasblarni o‘rganmoqchi bo‘lganlar uchun
-                yaratilgan innovatsion ta’lim platformasi. Platforma orqali
-                yangi boshlovchilardan tortib, tajribali mutaxassislargacha o‘z
-                bilimlarini mustahkamlashlari, yangi texnologiyalarni
-                o‘rganishlari va amaliy tajriba orttirishlari mumkin.
-              </p>
-              <div className="forWhom">
-                <h2>🎯 Kimlar uchun?</h2>{" "}
+            <div className="courseBlock">
+              <div className="courseBox">
+                <div className="boxImg">
+                  <img src="/public/html.png" alt="" />
+                </div>
+                <h2>HTML</h2>
                 <p>
-                  Dasturlashni o‘rganmoqchi bo‘lganlar – Noldan boshlovchilar
-                  uchun tushunarli va amaliy kurslar.
+                  Videodarslar soni: <span>0 ta</span>
                 </p>
                 <p>
-                  IT mutaxassislari – Bilimlarini mustahkamlash va yangi
-                  texnologiyalarni o‘rganish imkoniyati.
+                  Kurs davomiyligi: <span>0 soat</span>
                 </p>
                 <p>
-                  {" "}
-                  Talabalar – Amaliy topshiriqlar va real loyihalar bilan
-                  tajriba orttirish.
-                </p>
-                <p>
-                  Frilanserlar – Kasbiy mahoratini oshirib, rezyume yaratish
-                  imkoniyati.
+                  Kurs narxi: <span className="fakePrice">200.000 so'm</span>{" "}
+                  <span>Bepul</span>
                 </p>
               </div>
-              <div className="opportunities">
-                <h2>🚀 Eduway'da Sizni Nima Kutmoqda?</h2>
+              <div className="courseBox">
+                <div className="boxImg">
+                  <img src="/public/css.png" alt="" />
+                </div>
+                <h2>HTML</h2>
                 <p>
-                  {" "}
-                  ✅ Interaktiv kurslar – Dasturlash, veb-ishlab chiqish, sun’iy
-                  intellekt va boshqa yo‘nalishlarda sifatli ta’lim.
+                  Videodarslar soni: <span>0 ta</span>
                 </p>
                 <p>
-                  ✅ Topshiriqlar va amaliy mashg‘ulotlar – O‘z bilimlaringizni
-                  sinab ko‘rib, real muammolarni hal qilish tajribasi.
+                  Kurs davomiyligi: <span>0 soat</span>
                 </p>
                 <p>
-                  {" "}
-                  ✅ Resurslar va qo‘llanmalar – Foydali maqolalar, darsliklar
-                  va qo‘llanmalar.
+                  Kurs narxi: <span className="fakePrice">200.000 so'm</span>{" "}
+                  <span>Bepul</span>
+                </p>
+              </div>
+              <div className="courseBox">
+                <div className="boxImg">
+                  <img src="/public/sass.png" alt="" />
+                </div>
+                <h2>SASS</h2>
+                <p>
+                  Videodarslar soni: <span>0 ta</span>
                 </p>
                 <p>
-                  ✅ Eduway – zamonaviy IT kasblarni o‘rganish va professional
-                  rivojlanish uchun eng qulay platforma!
+                  Kurs davomiyligi: <span>0 soat</span>
                 </p>
                 <p>
-                  {" "}
-                  ✅ Resume Builder – O‘z rezyumengizni tayyorlab, ish
-                  beruvchilarga taqdim etish imkoniyati.
+                  Kurs narxi: <span className="fakePrice">200.000 so'm</span>{" "}
+                  <span>Bepul</span>
+                </p>
+              </div>
+              <div className="courseBox">
+                <div className="boxImg">
+                  <img src="/public/bootstrap.png" alt="" />
+                </div>
+                <h2>Bootstrap</h2>
+                <p>
+                  Videodarslar soni: <span>0 ta</span>
+                </p>
+                <p>
+                  Kurs davomiyligi: <span>0 soat</span>
+                </p>
+                <p>
+                  Kurs narxi: <span className="fakePrice">200.000 so'm</span>{" "}
+                  <span>Bepul</span>
+                </p>
+              </div>
+              <div className="courseBox">
+                <div className="boxImg">
+                  <img src="/public/tailwind.png" alt="" />
+                </div>
+                <h2>Tailwind</h2>
+                <p>
+                  Videodarslar soni: <span>0 ta</span>
+                </p>
+                <p>
+                  Kurs davomiyligi: <span>0 soat</span>
+                </p>
+                <p>
+                  Kurs narxi: <span className="fakePrice">200.000 so'm</span>{" "}
+                  <span>Bepul</span>
+                </p>
+              </div>
+              <div className="courseBox">
+                <div className="boxImg">
+                  <img src="/public/js.png" alt="" />
+                </div>
+                <h2>JavaScript</h2>
+                <p>
+                  Videodarslar soni: <span>0 ta</span>
+                </p>
+                <p>
+                  Kurs davomiyligi: <span>0 soat</span>
+                </p>
+                <p>
+                  Kurs narxi: <span className="fakePrice">200.000 so'm</span>{" "}
+                  <span>Bepul</span>
+                </p>
+              </div>
+              <div className="courseBox">
+                <div className="boxImg">
+                  <img src="/public/react.png" alt="" />
+                </div>
+                <h2>React JS</h2>
+                <p>
+                  Videodarslar soni: <span>0 ta</span>
+                </p>
+                <p>
+                  Kurs davomiyligi: <span>0 soat</span>
+                </p>
+                <p>
+                  Kurs narxi: <span className="fakePrice">200.000 so'm</span>{" "}
+                  <span>Bepul</span>
+                </p>
+              </div>
+              <div className="courseBox">
+                <div className="boxImg">
+                  <img src="/public/native.png" alt="" />
+                </div>
+                <h2>React Native</h2>
+                <p>
+                  Videodarslar soni: <span>0 ta</span>
+                </p>
+                <p>
+                  Kurs davomiyligi: <span>0 soat</span>
+                </p>
+                <p>
+                  Kurs narxi: <span className="fakePrice">200.000 so'm</span>{" "}
+                  <span>Bepul</span>
+                </p>
+              </div>
+              <div className="courseBox">
+                <div className="boxImg">
+                  <img src="/public/ts.png" alt="" />
+                </div>
+                <h2>Typescript</h2>
+                <p>
+                  Videodarslar soni: <span>0 ta</span>
+                </p>
+                <p>
+                  Kurs davomiyligi: <span>0 soat</span>
+                </p>
+                <p>
+                  Kurs narxi: <span className="fakePrice">200.000 so'm</span>{" "}
+                  <span>Bepul</span>
                 </p>
               </div>
             </div>
@@ -69,7 +156,7 @@ function Courses() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Courses
+export default Courses;

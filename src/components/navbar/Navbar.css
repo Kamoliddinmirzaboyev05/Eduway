@@ -4,6 +4,7 @@
 nav {
   position: fixed;
   width: 100%;
+  backdrop-filter: blur(20px);
   background-color: #263148;
 }
 
