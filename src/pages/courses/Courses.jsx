@@ -9,7 +9,7 @@ function Courses() {
             <div className="courseBlock">
               <div className="courseBox">
                 <div className="boxImg">
-                  <img src="/public/html.png" alt="" />
+                  <img src="/html.png" alt="" />
                 </div>
                 <h2>HTML</h2>
                 <p>
@@ -25,7 +25,7 @@ function Courses() {
               </div>
               <div className="courseBox">
                 <div className="boxImg">
-                  <img src="/public/css.png" alt="" />
+                  <img src="/css.png" alt="" />
                 </div>
                 <h2>HTML</h2>
                 <p>
@@ -41,7 +41,7 @@ function Courses() {
               </div>
               <div className="courseBox">
                 <div className="boxImg">
-                  <img src="/public/sass.png" alt="" />
+                  <img src="/sass.png" alt="" />
                 </div>
                 <h2>SASS</h2>
                 <p>
@@ -57,7 +57,7 @@ function Courses() {
               </div>
               <div className="courseBox">
                 <div className="boxImg">
-                  <img src="/public/bootstrap.png" alt="" />
+                  <img src="/bootstrap.png" alt="" />
                 </div>
                 <h2>Bootstrap</h2>
                 <p>
@@ -73,7 +73,7 @@ function Courses() {
               </div>
               <div className="courseBox">
                 <div className="boxImg">
-                  <img src="/public/tailwind.png" alt="" />
+                  <img src="/tailwind.png" alt="" />
                 </div>
                 <h2>Tailwind</h2>
                 <p>
@@ -89,7 +89,7 @@ function Courses() {
               </div>
               <div className="courseBox">
                 <div className="boxImg">
-                  <img src="/public/js.png" alt="" />
+                  <img src="/js.png" alt="" />
                 </div>
                 <h2>JavaScript</h2>
                 <p>
@@ -105,7 +105,7 @@ function Courses() {
               </div>
               <div className="courseBox">
                 <div className="boxImg">
-                  <img src="/public/react.png" alt="" />
+                  <img src="/react.png" alt="" />
                 </div>
                 <h2>React JS</h2>
                 <p>
@@ -121,7 +121,7 @@ function Courses() {
               </div>
               <div className="courseBox">
                 <div className="boxImg">
-                  <img src="/public/native.png" alt="" />
+                  <img src="/native.png" alt="" />
                 </div>
                 <h2>React Native</h2>
                 <p>
@@ -137,7 +137,7 @@ function Courses() {
               </div>
               <div className="courseBox">
                 <div className="boxImg">
-                  <img src="/public/ts.png" alt="" />
+                  <img src="/ts.png" alt="" />
                 </div>
                 <h2>Typescript</h2>
                 <p>
